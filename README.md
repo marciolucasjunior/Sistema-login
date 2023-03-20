@@ -15,7 +15,7 @@
 <img src="https://user-images.githubusercontent.com/109992150/226419738-a98cfff7-eada-4c66-bf2a-804c55522f6b.png"  width="800px" /> 
 </div>
 <h2>Página cadastrar</h2>
-<img src="https://user-images.githubusercontent.com/109992150/226420936-cb8d02e2-551e-49dd-b74e-88bcbbd0f24e.png"  width="800px" /> 
+<img src="https://github.com/marciolucasjunior/Sistema-login/issues/2#issue-1632566421" /> 
 
 
 <h1>Tecnologias utilizadas </h1>
