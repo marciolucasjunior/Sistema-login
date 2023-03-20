@@ -4,7 +4,7 @@
 
 <a href="https://meuloginmysql.infinityfreeapp.com/index.php" target_blank />Acesse o projeto aqui</a><br>
 
-<a href="https://github.com/marciolucasjunior/MakeBurger/blob/main/LICENSE"><img src="https://user-images.githubusercontent.com/109992150/226419738-a98cfff7-eada-4c66-bf2a-804c55522f6b.png" width="80px" /></a>
+<a href="https://github.com/marciolucasjunior/MakeBurger/blob/main/LICENSE" width="80px" /></a>
 
 <p>Sistema login é um projeto desenvolvido com PHP e Mysql que contem um formulário, em que o usuário para ter acesso à área restrita, sera necessário logar, para isso devera se cadastrar primeiro.</p>
 <p>Os dados do cadastro após serem enviados, passaram por uma validação para checar se as informações estão corretas, a senha será criptografada para maior segurança, e após isso serão cadastrados no banco de dados.</p>  
