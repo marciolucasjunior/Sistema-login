@@ -1,0 +1,40 @@
+body {
+
+  
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; /* alinhamento na horizontal  */
+    align-items: center;
+    background: #eeeeee;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+
+.container_restrita{
+    padding-top: 50px;
+    text-align: center;
+    background-color: white;
+    height: 250px;
+    width: 500px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgb(189, 188, 188);
+}
+
+.btn-green{
+    width: 90%;
+    padding: 20px;
+    cursor: pointer;
+    background-color: rgba(0, 126, 0, 0.685);
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.btn-green:hover{
+    background-color: green;
+}

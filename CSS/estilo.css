@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+}
+
+ body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; /* alinhamento na horizontal  */
+    align-items: center;
+    background: #eeeeee;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}  
+
+form {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+     max-width: 400px;
+     padding:40px 20px 20px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgb(189, 188, 188);
+}
+
+h1{
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    font-weight: 900;
+}
+
+input{
+  width: 95%;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding-left: 20%;
+}
+
+input:focus{
+    outline-color: #00c3ff;
+}
+
+.btn-blue{
+    width: 90%;
+    padding: 20px;
+    margin: 20px 0px 20px 0px;
+    cursor: pointer;
+    background-color: #00c3ff;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+
+.btn-blue:hover{
+    background-color: #0092be;
+}
+
+a{
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+a:hover{
+    color: #00c3ff;
+}
+
+.link{
+    color: #00c3ff;
+    text-decoration: underline;
+}
+
+.input-group{
+    width: 100%;
+}
+
+
+.icon{
+    position: absolute;
+}
+
+input[type='checkbox']{
+    display: inline-block;
+    height: 20px;
+    width: 5%;
+    vertical-align: middle;
+}
+
+label {
+    display: inline-block;
+    width: 85%;
+    font-size: 14px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.erro_geral{
+    background-color: rgba(255, 0, 0, 0.788);
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+   
+}
+
+
+
+.erro_input{
+    border: 1px solid rgba(255, 0, 0, 0.788);
+}
+
+.falhou {
+    color:rgba(255, 0, 0, 0.788);
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sucesso {
+    background-color: #2ac874;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
